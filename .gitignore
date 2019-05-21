@@ -1,3 +1,34 @@
+blog/
+
+android/*
+
+!android/build.gradle
+!android/settings.gradle
+
+!android/app/
+android/app/*
+!android/app/build.gradle
+!android/app/src
+android/app/src/*
+!android/app/src/main
+android/app/src/main/*
+!android/app/src/main/java
+android/app/src/main/java/*
+!android/app/src/main/java/com
+android/app/src/main/java/com/*
+android/app/src/main/java/com/reactnativegoogleadmob/*
+!android/app/src/main/java/com/reactnativegoogleadmob
+!android/app/src/main/java/com/reactnativegoogleadmob/MainApplication.java
+
+ios/*
+
+!ios/Podfile
+
+!ios/ReactNativeGoogleAdmob/
+ios/ReactNativeGoogleAdmob/*
+!ios/ReactNativeGoogleAdmob/AppDelegate.h
+!ios/ReactNativeGoogleAdmob/AppDelegate.m
+
 # OSX
 #
 .DS_Store
@@ -54,8 +85,3 @@ buck-out/
 
 # Bundle artifact
 *.jsbundle
-
-blog/
-
-android/
-ios/
